@@ -131,6 +131,10 @@ h2 {
 .projects-iteam {
     width: 33.3%;
     max-width: 350px;
+    transition: transform 0.5s;
+}
+.projects-iteam:hover {
+    transform: scale(1.05);
 }
 .red-line {
     margin: 45px 0 15px 0;
@@ -211,6 +215,10 @@ h3 {
     background: #F7F7F7;
     margin-bottom: 30px;
     padding: 59px 86px;
+    transition: transform 0.5s ;
+}
+.office-iteam:hover {
+    transform: translateY(-20px);
 }
 
 .office-text:before {
@@ -282,6 +290,10 @@ h3 {
 .reviews-iteam {
     max-width: 33.3%;
     max-width: 350px;
+    transition: transform 0.5s;
+}
+.reviews-iteam:hover {
+    transform: scale(1.05);
 }
 .review-text {
     background: #F7F7F7;  
@@ -322,6 +334,10 @@ h3 {
 .contact-iteam {
     max-width: 255px;
     text-align: center;
+    transition: transform 0.5s;
+}
+.contact-iteam:hover {
+    transform: scale(1.05);
 }
 .contact-name {
     color: #999999;
