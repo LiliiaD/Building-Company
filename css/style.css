@@ -180,6 +180,10 @@ h3 {
 .request-button {
     background: #ffffff;
     padding: 14px 30px;
+    transition: 0.5s;
+}
+.request-button:hover {
+    background: #999999;
 }
 .request {
     font-weight: 500;
@@ -246,8 +250,9 @@ h3 {
 .answers {
     padding: 150px 0;
 }
-.question {
+.accordion {
     display: block;
+    max-width: 33%;
     padding-left: 20px;
     margin-top: 40px;
     font-weight: 500;
@@ -255,17 +260,23 @@ h3 {
     line-height: 36px;
     color: #F7654A;
     background: url('../img/arow.svg') left no-repeat;
+    transition: 0.5s;
 }
-.question-open {
+.accordion:active {
     background: url('../img/arow2.svg') left no-repeat;
 }
-.answer {
+
+.panel {
     padding-top: 30px;
     max-width: 730px;
     font-family: 'Open Sans';
     font-size: 16px;
     line-height: 22px;
     color: #999999;
+    display: none;
+}
+.panel.show {
+    display: block;
 }
 .partners {
     background:  #404149;
@@ -334,11 +345,8 @@ h3 {
 .contact-iteam {
     max-width: 255px;
     text-align: center;
-    transition: transform 0.5s;
 }
-.contact-iteam:hover {
-    transform: scale(1.05);
-}
+
 .contact-name {
     color: #999999;
 }
@@ -349,8 +357,14 @@ h3 {
     text-align: center;
     color: #000000;
 }
+.tel-link {
+    color: #000000;
+}
 .info-mail {
     color: #F7654A;
+}
+.info-mail:hover {
+    color: #000000;
 }
 .address:before {
     display: block;
