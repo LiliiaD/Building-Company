@@ -1,0 +1,185 @@
+@media (max-width: 1110px) {
+    .wrapper {
+        max-width: 970px;
+    }
+    h1 {
+        padding: 48px 138px;
+    }
+    .project-subtitle {
+        font-size: 15px;
+    }
+    .office-iteam, .reviews-iteam {
+        max-width: 318px;
+    }
+    .contact-iteam {
+        max-width: 242px
+    }   
+}
+
+@media (max-width: 972px) {
+    .wrapper {
+        max-width: 750px;
+    }
+    h1 {
+        padding: 48px 100px;
+        font-size: 52px;
+        line-height: 88px;
+    }
+    .number {
+        font-size: 68px;
+    }
+    .projects-iteam {
+        max-width: 240px;
+    }
+    .office-iteam, .reviews-iteam {
+        max-width: 240px;
+    }
+    .accordion {
+        max-width: 40%;
+        font-size: 21px;
+    }
+    .partners-iteam {
+        max-width: 135px;
+    }
+
+    .review-sign {
+        font-size: 15px;
+    }
+    .ad-title {
+        font-size: 36px;
+        line-height: 58px;
+    }
+    .ad-subtitle {
+        font-size: 18px;
+    }
+    .contact-iteam {
+        max-width: 187px
+    } 
+    .contact-info {
+        font-size: 18px;
+    }
+    .footer-text {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 767px) {
+    .wrapper {
+        max-width: none;
+    }
+    .logo {
+        margin: 10px 0;
+    }
+    .menu {
+        margin: 20px 0;
+    }
+    h1 {
+    padding: 48px 40px;
+    font-size: 30px;
+    line-height: 67px;
+    }
+    .subtitle {
+        font-size: 12px;
+    }
+    .iteam-hide {
+        display: none;
+    }
+    .experience {
+        padding: 57px 50px;
+        display: block;
+    }
+    .experience-iteam {
+        width: 100%;
+    }
+    h2 {
+        font-size: 24px;
+        line-height: 48px;
+    }
+    .projects-iteam {
+        max-width: 120px;
+    }
+    .red-line {
+        width: 36px;
+    }
+    h3 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .project-subtitle {
+        font-size: 12px;
+    }
+    .request-button {
+        padding: 10px;
+    }
+    .ad-title {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .ad-subtitle {
+        font-size: 10px;
+    }
+    .ad {
+        padding: 25px 0 35px 0;
+    }
+    .about-work, .answers, .reviews, .contact, .big-projects {
+        padding: 80px 0;
+    }
+    .office-iteam {
+        max-width: 120px;
+        padding: 20px 0;
+    }
+    .office-text {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .images-hide {
+        display: none;
+    }
+    .accordion {
+        max-width: 60%;
+        font-size: 14px;
+    }
+    .panel {
+        font-size: 12px;
+    }
+    .partners {
+        padding: 50px 0;
+    }
+    .partners-row {
+        padding-top: 35px;
+    }
+    .partners-iteam {
+        max-width: 65px;
+    }
+    .reviews-iteam {
+        max-width: 130px;
+    }
+    .review-text {
+        font-size: 12px;
+        line-height: 19px;
+        padding: 38px 10px;
+    }
+    .contact-row {
+        padding: 50px 0;
+    }
+    .contact-iteam {
+        max-width: 90px;
+    }
+    .address, .phone, .hours, .mail {
+        font-size: 18px;
+    }
+    .contact-name {
+        margin-bottom: 28px;
+    }
+    .hours {
+        margin-bottom: 0;
+    }
+    .contact-info {
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .footer-text {
+        font-size: 8px;
+        line-height: 16px;
+    }
+}

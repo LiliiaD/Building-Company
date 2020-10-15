@@ -136,6 +136,9 @@ h2 {
 .projects-iteam:hover {
     transform: scale(1.05);
 }
+.arena {
+    width: 100%;
+}
 .red-line {
     margin: 45px 0 15px 0;
     width: 55px;
@@ -290,6 +293,13 @@ h3 {
     justify-content: space-between;
     padding-top: 60px;
 }
+.partners-iteam{
+    width:20%;
+    max-width: 170px;
+}
+.partners-logo {
+    width: 100%;  
+}
 .reviews {
     padding: 150px 0;
 }
@@ -343,6 +353,7 @@ h3 {
     padding: 60px 0;
 }
 .contact-iteam {
+    width: 25%;
     max-width: 255px;
     text-align: center;
 }
