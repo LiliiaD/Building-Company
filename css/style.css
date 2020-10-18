@@ -129,8 +129,7 @@ h2 {
     justify-content: space-between;
 }
 .projects-iteam {
-    width: 33.3%;
-    max-width: 350px;
+    width: 31.5%;
     transition: transform 0.5s;
 }
 .projects-iteam:hover {
@@ -217,8 +216,7 @@ h3 {
     justify-content: space-between;
 }
 .office-iteam {
-    width: 33.33%;
-    max-width: 350px;
+    width: 31.5%;
     background: #F7F7F7;
     margin-bottom: 30px;
     padding: 59px 86px;
@@ -255,7 +253,7 @@ h3 {
 }
 .accordion {
     display: block;
-    max-width: 33%;
+    max-width: 31.5%;
     padding-left: 20px;
     margin-top: 40px;
     font-weight: 500;
@@ -294,8 +292,7 @@ h3 {
     padding-top: 60px;
 }
 .partners-iteam{
-    width:20%;
-    max-width: 170px;
+    width:15.5%;
 }
 .partners-logo {
     width: 100%;  
@@ -309,8 +306,7 @@ h3 {
     padding-top: 64px;
 }
 .reviews-iteam {
-    max-width: 33.3%;
-    max-width: 350px;
+    max-width: 31.5%;
     transition: transform 0.5s;
 }
 .reviews-iteam:hover {

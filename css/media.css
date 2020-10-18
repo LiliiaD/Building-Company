@@ -7,13 +7,7 @@
     }
     .project-subtitle {
         font-size: 15px;
-    }
-    .office-iteam, .reviews-iteam {
-        max-width: 318px;
-    }
-    .contact-iteam {
-        max-width: 242px
-    }   
+    }  
 }
 
 @media (max-width: 972px) {
@@ -28,18 +22,15 @@
     .number {
         font-size: 68px;
     }
-    .projects-iteam {
-        max-width: 240px;
-    }
-    .office-iteam, .reviews-iteam {
-        max-width: 240px;
-    }
     .accordion {
         max-width: 40%;
         font-size: 21px;
     }
+    .partners {
+        padding: 80px 0;
+    }
     .partners-iteam {
-        max-width: 135px;
+        width: 17%;
     }
 
     .review-sign {
@@ -52,9 +43,6 @@
     .ad-subtitle {
         font-size: 18px;
     }
-    .contact-iteam {
-        max-width: 187px
-    } 
     .contact-info {
         font-size: 18px;
     }
@@ -151,9 +139,9 @@
     .partners-iteam {
         max-width: 65px;
     }
-    .reviews-iteam {
+    /*.reviews-iteam {
         max-width: 130px;
-    }
+    }*/
     .review-text {
         font-size: 12px;
         line-height: 19px;
@@ -161,9 +149,6 @@
     }
     .contact-row {
         padding: 50px 0;
-    }
-    .contact-iteam {
-        max-width: 90px;
     }
     .address, .phone, .hours, .mail {
         font-size: 18px;
